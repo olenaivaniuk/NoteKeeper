@@ -24,8 +24,16 @@ object DataManager {
     }
 
     private fun initializeNotes() {
-        var note = NoteInfo(CourseInfo("java_core", "Java Fundamentals: The core Plarform"), "Note#1", "Text of Note#1")
-        notes.set(note.)
+        var note1 = NoteInfo(CourseInfo("java_core", "Java Fundamentals: The core Plarform"), "Note#1", "Text of Note#1")
+        notes.add(note1)
+
+        var note2 = NoteInfo(CourseInfo("android_async", "Android Async Programming"), "Note#2", "Text of Note#2")
+        notes.add(note2)
+
+        var note3 = NoteInfo(CourseInfo("java_lang", "Java fundamentals"), "Note#3", "Text of Note#3")
+        notes.add(note3)
+
+
 
     }
 }
